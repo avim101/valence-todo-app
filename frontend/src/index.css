@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        height: 100%;
+        background: theme('colors.base-200');
+    }
+
+    #root {
+        background: theme('colors.base-200');
+    }
+}
+
+html {
+    height: 100%;
+}
+
